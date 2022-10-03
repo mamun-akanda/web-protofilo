@@ -8,15 +8,16 @@ h1{
    
    }
 h2{
-    font-size: 45px;
+    font-size: 35px;
 }
 p{
   color: dimgrey;
+  font-size: small;
 
 }
 
-.name-highlight{
-    color: orange ;
+.orange-highlight{
+    color: orange;
 }
 
 
@@ -59,4 +60,34 @@ section{
     background-position: right;
     background-size: 8%;
 
+
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 7%;
+
+
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-Developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
